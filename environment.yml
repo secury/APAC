@@ -1,0 +1,17 @@
+name: apac
+dependencies:
+- python=3.6
+- cudatoolkit=10.0
+- cudnn=7
+- numpy<1.17
+- tqdm
+- cython
+- pip
+- pip:
+  - gym
+  - tensorflow==1.14
+  - tensorflow-probability==0.7
+  - mujoco_py==2.0.2.10
+  - stable_baselines==2.7.0
+  - mpi4py==3.0.3
+  - gast==0.2.2  # to prevent tensorflow warning (WARNING:tensorflow:Entity could not be transformed and will be executed as-is.)
