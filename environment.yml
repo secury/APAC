@@ -3,12 +3,12 @@ dependencies:
 - python=3.6
 - cudatoolkit=10.0
 - cudnn=7
-- numpy<1.17
 - tqdm
 - cython
 - pip
 - pip:
-  - gym
+  - gym==0.18.0
+  - numpy==1.16.4
   - tensorflow==1.14
   - tensorflow-probability==0.7
   - mujoco_py==2.0.2.10
